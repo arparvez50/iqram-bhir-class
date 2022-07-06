@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Blog Design</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"
+        defer></script>
+
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">B5 Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Featured Area -->
+    <div class="container my-4">
+        <div class="row">
+            <h3>Featured Post</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card mt-3 mt-lg-0">
+                    <img src="./img/12-min.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Title One</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, molestias
+                            dolorem? Incidunt accusamus culpa tempore quidem pariatur, obcaecati iste harum!</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-3 mt-lg-0">
+                    <img src="./img/18-min.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Title One</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, molestias
+                            dolorem? Incidunt accusamus culpa tempore quidem pariatur, obcaecati iste harum!</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-3 mt-lg-0">
+                    <img src="./img/16-min.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Title One</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, molestias
+                            dolorem? Incidunt accusamus culpa tempore quidem pariatur, obcaecati iste harum!</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Area -->
+    <main class="container my-4">
+        <div class="row ">
+            <div class="col-lg-8">
+                <h3 class="text-bold">Recent Blog</h3>
+                <!-- Article Section -->
+                <div class="list-group mt-4">
+                    <a href="#" class="list-group-item list-group-item-action " aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Some placeholder content in a paragraph.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae culpa hic
+                        quia iste voluptas obcaecati vel earum harum incidunt, nulla veniam minus mollitia qui!</small>
+                    </a>
+                    <a href="./single.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Some placeholder content in a paragraph.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae culpa hic
+                        quia iste voluptas obcaecati vel earum harum incidunt, nulla veniam minus mollitia qui!</small>
+                    </a>
+                    <a href="./single.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Some placeholder content in a paragraph.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae culpa hic
+                        quia iste voluptas obcaecati vel earum harum incidunt, nulla veniam minus mollitia qui!</small>
+                    </a>
+                    <a href="./single.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                            <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Some placeholder content in a paragraph.</p>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae culpa hic
+                        quia iste voluptas obcaecati vel earum harum incidunt, nulla veniam minus mollitia qui!</small>
+                    </a>
+                </div>
+                <!-- Article Pagination -->
+                <nav aria-label="Page navigation example" class="my-2 align-self-center">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+
+            </div>
+            <div class="col-lg-4 ">
+                <h3>Advertisement</h3>
+                <div class="mt-4">
+                    <img src="./img/13-min.jpg" class="w-100 h-auto" alt="Advertisement">
+                </div>
+                <h3 class="mt-4">Popular Articles</h3>
+                <div class="mt-4">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="#">Blog Item 1</a></li>
+                        <li class="list-group-item"><a href="#">Blog Item 2</a></li>
+                        <li class="list-group-item"><a href="#">Blog Item 3</a></li>
+                        <li class="list-group-item"><a href="#">Blog Item 4</a></li>
+                        <li class="list-group-item"><a href="#">Blog Item 5</a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-100 bg-dark">
+        <div class="container text-light py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="display-6">Bootstrap Themes</h3>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere rerum enim vel
+                        labore dolores eligendi excepturi doloremque, placeat alias blanditiis harum qui laudantium
+                        perferendis aut molestias animi in nobis ullam.</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <a href="#" class="text-decoration-none text-secondary ms-lg-5  me-2">About</a>
+                    <a href="#" class="text-decoration-none text-secondary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
